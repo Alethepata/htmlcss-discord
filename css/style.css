@@ -5,32 +5,36 @@
 }
 
 /* header */
+header{
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .flex{
   display: flex;  
 }
 .container{
   width: 90%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;   
+  padding: 20px 0;
   
 }
-
+.btn{
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
 .topbar{
-  background-color: lightblue;
+  background-color: #255ee9;
 }
 
-.logo-superiore,.menu,.login,.box,.logo-inferiore,.bottone{
+.box,.logo-inferiore,.bottone{
     border: 2px dashed black;
-}
-.logo-superiore,.menu,.login{
-  background-color: orange;  
-  height: 40px;
 }
 .logo-superiore,.login{
   width: 200px;
 }
-.text-logo,.text-menu,.text-login,.text-bottone{
+.text-menu,.text-login,.text-bottone{
   font-size: 20px;
 }
 .logo-superiore,.menu,.login,.jumbotron,.logo-inferiore,.bottone{
@@ -42,21 +46,38 @@
 .menu{
  width: calc(100% - 400px);
 }
+.text-menu ul{
+  list-style: none;
+}
+.text-menu ul li{
+  padding-right: 20px;
+}
+.text-menu ul li a{
+    color: white;
+}
+.text-menu ul li a, .btn a{
+  text-decoration:none;
+
+}
+.btn a{
+  text-align: center;
+  justify-content: center;
+}
 .login{
   justify-content: flex-end;
 }
-.logo-superiore .text-logo{
-  margin-left: 20px;
+.login .btn a{
+  color: black;
 }
-.text-login{
- margin-right: 20px;
-}
+
+
+
 .jumbotron{
-  background-color: blue;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
   height: 500px;
 }
-.box.red{
-  background-color: red;
+.text-jumbotron{
   width: 700px;
   height: 400px;
   margin: 30px;
