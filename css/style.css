@@ -29,25 +29,23 @@ header{
 .btn.black{
   background-color: black;
 }
+.lightviolet{
+  background-color: #7289da;
+}
 .btn.white a{
   color: black;
 }
-.btn.btn.black a,.text-jumbotron {
+.btn.btn.black a,.text-jumbotron,.text-menu ul li a,.btn.lightviolet {
   color: white;
 }
 .topbar{
   background-color: #255ee9;
 }
 
-.box,.logo-inferiore,.bottone{
-    border: 2px dashed black;
-}
 .logo-superiore,.login{
   width: 200px;
 }
-.text-menu,.text-login,.text-bottone{
-  font-size: 20px;
-}
+
 .logo-superiore,.menu,.login,.jumbotron,.logo-inferiore,.bottone{
   align-items: center;
 }
@@ -63,10 +61,8 @@ header{
 .text-menu ul li{
   padding-right: 20px;
 }
-.text-menu ul li a{
-    color: white;
-}
-.text-menu ul li a, .btn a{
+
+.text-menu ul li a, .btn a,.btn.lightviolet{
   text-decoration:none;
 
 }
@@ -120,34 +116,28 @@ main h1{
   font-size: 45px;
   margin: 30px 0;
 }
+.sezione-grigia{
+  background-color: #f6f6f6;
+}
+.fourth-item{
+  text-align: center;
+}
+h2{
+  margin-bottom: 50px;
+}
+
+
+
+
 
 
 .box{
   height:400px;
   margin: 40px 0px;
 }
-.box.green, .box.lightskyblue,.box.yellow{
+.box.yellow{
     width:100%;
 }
-.box.lightskyblue{
-  background-color: lightskyblue;
-}
-.box.pink{
-  background-color: pink;
-  width:calc(100% / 2);
-}
-.sezione-grigia{
-  background-color: #f6f6f6;
-}
-.sezione-grigia .box.lightskyblue{
-  order: 1;
-}
-
-.box.green{
-  background-color: green;
-  height: 800px;
-}
-
 /* /main */
 
 /* footer */
