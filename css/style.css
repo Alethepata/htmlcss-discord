@@ -20,9 +20,20 @@ header{
   
 }
 .btn{
+  padding: 18px 30px;
+  border-radius: 30px;
+}
+.btn.white{
   background-color: white;
-  padding: 10px;
-  border-radius: 20px;
+}
+.btn.black{
+  background-color: black;
+}
+.btn.white a{
+  color: black;
+}
+.btn.btn.black a,.text-jumbotron {
+  color: white;
 }
 .topbar{
   background-color: #255ee9;
@@ -59,29 +70,44 @@ header{
   text-decoration:none;
 
 }
-.btn a{
+.text-jumbotron h1,.text-jumbotron p,.button{
   text-align: center;
-  justify-content: center;
 }
 .login{
   justify-content: flex-end;
 }
-.login .btn a{
-  color: black;
-}
-
-
 
 .jumbotron{
   background-image: url(../img/jumbo.png);
   background-size: cover;
-  height: 500px;
+
 }
 .text-jumbotron{
-  width: 700px;
-  height: 400px;
-  margin: 30px;
+  padding: 145px;
+
 }
+
+.text-jumbotron h1{
+  font-weight: 800;
+}
+
+.text-jumbotron p{
+  margin:20px 0;
+  line-height: 30px;  
+  font-weight: 600;
+}
+
+.text-jumbotron .button .btn{
+  display: inline-block;
+}
+.text-jumbotron .button .white a::before{
+  content:'\1F817';
+  vertical-align: middle;
+}
+.text-jumbotron .button .white{
+  margin-right: 10px;
+}
+
 /* /header */
 
 /* main */ /* togliere altezze */
