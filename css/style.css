@@ -112,6 +112,14 @@ header{
 
 /* main */ /* togliere altezze */
 
+main section{
+  padding: 80px;
+}
+
+.text-first-item h1{
+  font-size: 45px;
+  margin: 30px 0;
+}
 
 
 .box{
