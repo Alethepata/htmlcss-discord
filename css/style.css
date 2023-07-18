@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+
+.flex{
+  display: flex;  
+}
+.container{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;   
+  
+}
+
+.topbar{
+  background-color: lightblue;
+}
+
+.logo-superiore,.menu,.login,.box,.logo-inferiore,.bottone{
+    border: 2px dashed black;
+}
+.logo-superiore,.menu,.login{
+  background-color: orange;  
+  height: 40px;
+}
+.logo-superiore,.login{
+  width: 200px;
+}
+.text-logo,.text-menu,.text-login,.text-bottone{
+  font-size: 20px;
+}
+.logo-superiore,.menu,.login,.jumbotron,.logo-inferiore,.bottone{
+  align-items: center;
+}
+.menu,.jumbotron,.logo-inferiore,.bottone{
+   justify-content: center;
+}
+.menu{
+ width: calc(100% - 400px);
+}
+.login{
+  justify-content: flex-end;
+}
+.logo-superiore .text-logo{
+  margin-left: 20px;
+}
+.text-login{
+ margin-right: 20px;
+}
+.jumbotron{
+  background-color: blue;
+  height: 500px;
+}
+.box.red{
+  background-color: red;
+  width: 700px;
+  height: 400px;
+  margin: 30px;
+}
+/* /header */
+
+/* main */ /* togliere altezze */
+
+
+
+.box{
+  height:400px;
+  margin: 40px 0px;
+}
+.box.green, .box.lightskyblue,.box.yellow{
+    width:100%;
+}
+.box.lightskyblue{
+  background-color: lightskyblue;
+}
+.box.pink{
+  background-color: pink;
+  width:calc(100% / 2);
+}
+.sezione-grigia{
+  background-color: lightgray;
+}
+.sezione-grigia .box.lightskyblue{
+  order: 1;
+}
+
+.box.green{
+  background-color: green;
+  height: 800px;
+}
+
+/* /main */
+
+/* footer */
+
+footer{
+  background-color:#23272a;
+
+}
+footer>section:first-child{
+    border-bottom: 1px solid white;
+}
+.box.violet,.box.yellow{
+  height: 500px;
+}
+.box.violet{
+  background-color:blueviolet;  
+  width: calc(100% / 3);
+}
+.box.yellow{
+  background-color: yellow;
+  justify-content: space-evenly;
+}
+.box-trasparente{
+  border: 3px dashed white;
+}
+.footer-secondario{
+  background-color: aquamarine;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.logo-inferiore,.bottone{
+  width: 90px;
+  background-color: bisque;
+}
+
+
+/* /footer */
+
+
+
+
+
