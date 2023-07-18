@@ -35,7 +35,7 @@ header{
 .btn.white a{
   color: black;
 }
-.btn.btn.black a,.text-jumbotron,.text-menu ul li a,.btn.lightviolet {
+.color-white{
   color: white;
 }
 .topbar{
@@ -55,14 +55,14 @@ header{
 .menu{
  width: calc(100% - 400px);
 }
-.text-menu ul{
+ ul{
   list-style: none;
 }
 .text-menu ul li{
   padding-right: 20px;
 }
 
-.text-menu ul li a, .btn a,.btn.lightviolet{
+.text-menu ul li a, .btn a,.btn.lightviolet,.second-text-menu ul li a{
   text-decoration:none;
 
 }
@@ -126,18 +126,6 @@ h2{
   margin-bottom: 50px;
 }
 
-
-
-
-
-
-.box{
-  height:400px;
-  margin: 40px 0px;
-}
-.box.yellow{
-    width:100%;
-}
 /* /main */
 
 /* footer */
@@ -146,23 +134,26 @@ footer{
   background-color:#23272a;
 
 }
-footer>section:first-child{
-    border-bottom: 1px solid white;
+footer h1, ul{
+  color:  #7289da;
 }
-.box.violet,.box.yellow{
-  height: 500px;
+.small-column h1,.social{
+  margin: 20px 0;
 }
-.box.violet{
-  background-color:blueviolet;  
-  width: calc(100% / 3);
+.second-text-menu ul{
+  display: block;
 }
-.box.yellow{
-  background-color: yellow;
-  justify-content: space-evenly;
+.second-text-menu ul li{
+  margin: 20px;
 }
-.box-trasparente{
-  border: 3px dashed white;
+.column:first-child{
+  padding: 0 60px 0 40px;
 }
+.column:not(:first-child){
+  padding: 0 60px;
+}
+
+
 .footer-secondario{
   background-color: aquamarine;
   justify-content: space-between;
