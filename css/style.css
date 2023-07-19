@@ -46,10 +46,10 @@ header{
   width: 200px;
 }
 
-.logo-superiore,.menu,.login,.jumbotron,.logo-inferiore,.bottone{
+.logo-superiore,.menu,.login,.jumbotron,.logo-inferiore{
   align-items: center;
 }
-.menu,.jumbotron,.logo-inferiore,.bottone{
+.menu,.jumbotron,.logo-inferiore{
    justify-content: center;
 }
 .menu{
@@ -155,14 +155,11 @@ footer h1, ul{
 
 
 .footer-secondario{
-  background-color: aquamarine;
   justify-content: space-between;
   margin-top: 30px;
+  border-top: 1px solid #7289da;
 }
-.logo-inferiore,.bottone{
-  width: 90px;
-  background-color: bisque;
-}
+
 
 
 /* /footer */
